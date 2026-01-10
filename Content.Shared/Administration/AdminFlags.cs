@@ -1,4 +1,4 @@
-namespace Content.Shared.Administration
+﻿namespace Content.Shared.Administration
 {
     /// <summary>
     ///     Permissions that admins can have.
@@ -70,7 +70,7 @@ namespace Content.Shared.Administration
         Round = 1 << 10,
 
         /// <summary>
-        ///     Lets you use BQL queries.
+        ///     Lets you use BQL queries. Corvax-Edit: uses for playtime command.
         /// </summary>
         Query = 1 << 11,
 
@@ -123,12 +123,6 @@ namespace Content.Shared.Administration
         ///     Lets you set the color of your OOC name.
         /// </summary>
         NameColor = 1 << 21,
-
-        // Corvax-DiscordRoles
-        /// <summary>
-        ///     Allows you to edit players playtime.
-        /// </summary>
-        Playtime = 1 << 22,
 
         /// <summary>
         ///     Dangerous host permissions like scsi.
