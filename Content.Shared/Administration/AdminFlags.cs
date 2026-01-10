@@ -70,7 +70,7 @@ namespace Content.Shared.Administration
         Round = 1 << 10,
 
         /// <summary>
-        ///     Lets you use BQL queries.
+        ///     Lets you use BQL queries. Corvax-Edit: uses for playtime command.
         /// </summary>
         Query = 1 << 11,
 
