@@ -124,12 +124,6 @@ namespace Content.Shared.Administration
         /// </summary>
         NameColor = 1 << 21,
 
-        // Corvax-DiscordRoles
-        /// <summary>
-        ///     Allows you to edit players playtime.
-        /// </summary>
-        Playtime = 1 << 22,
-
         /// <summary>
         ///     Dangerous host permissions like scsi.
         /// </summary>
